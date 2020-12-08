@@ -1,0 +1,8 @@
+@mixin linear-gradient($primary-color, $secondary-color) {
+    background: $primary-color;
+    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 80%);
+}
+
+@mixin font-size($sizeValue: 1.6) {
+    font-size: ($sizeValue * 0.1) + rem;
+}
