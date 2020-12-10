@@ -1,4 +1,4 @@
-<main class="container">
+<main class="container" id="main_tag">
 <?php 
 get_template_part("template-partials/main-content/content", "welcome-section");
 get_template_part("template-partials/main-content/content", "dishes-section");
