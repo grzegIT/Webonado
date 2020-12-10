@@ -12,6 +12,7 @@ the_field('item-image');?>" alt="" srcset="">
 
 <h2><?php the_title(); ?></h2>
 
+
 <?php
 include_footer();
 ?>
