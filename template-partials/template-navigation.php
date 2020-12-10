@@ -35,9 +35,11 @@
             
             <!-- fast contact element -->
             <div class="page-header__fast-contact">
-                <p><?php the_field('working_hours');?></p>
-                <div class="icon-wrapper"><img class="phone-icon" src="<?php echo bloginfo('template_url') . './assets/icons/utility-icons/phone-icon.svg'; ?>" alt="Quick calling"></div>
-                <p><span class="bold"><?php the_field('quick-contact');?></span></p>
+                <p><?php the_field('working_hours', 38);?></p>
+                <div class="fast-contact__calling">
+                    <a href="tel:0 800 33 08 98"><div class="icon-wrapper"><img class="phone-icon" src="<?php echo bloginfo('template_url') . './assets/icons/utility-icons/phone-icon.svg'; ?>" alt="Quick calling"></div></a>
+                    <a href="tel:0 800 33 08 98"><p><span class="bold"><?php the_field('quick-contact', 38);?></span></p></a>
+                </div>
             </div>
         </div>
     </div>
