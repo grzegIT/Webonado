@@ -1,0 +1,168 @@
+.tomato {
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.tomato_icon {
+    left: 0;
+    display: none;
+}
+
+.cucumber {
+    left: 0;
+    display: none;
+}
+
+.mushroom {
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.mushroom_icon {
+    left: 0;
+    display: none;
+}
+
+.pepper-blured--left {
+    left: 0;
+    display: none;
+}
+
+.pepper-blured--right {
+    right: 0;
+    display: none;
+}
+
+.pepper-tree {
+    left: 0;
+    display: none;
+}
+
+.pepper-two {
+    right: 0;
+    display: none;
+}
+
+.pepper-one {
+    right: 0;
+    display: none;
+}
+
+.pepper-double {
+    left: 0;
+    display: none;
+}
+
+.pizza_icon {
+    right: 0;
+    display: none;
+}
+
+.prawn_icon {
+    right: 0;
+    display: none;
+}
+
+.meat_icon {
+    left: 0;
+    display: none;
+}
+
+.tongs_icon {
+    right: 0;
+    display: none;
+}
+
+.broccoli_icon {
+    left: 0;
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .tomato,
+    .tomato_icon,
+    .cucumber,
+    .mushroom,
+    .mushroom_icon,
+    .pepper-blured--left,
+    .pepper-blured--right,
+    .pepper-tree,
+    .pepper-two,
+    .pepper-one,
+    .pepper-double,
+    .pizza_icon,
+    .prawn_icon,
+    .meat_icon,
+    .tongs_icon,
+    .broccoli_icon {
+        display: block;
+    }
+    .tomato {
+        left: 0;
+        transform: translate(-100%, -150%);
+        z-index: 1;
+    }
+    .tomato_icon {
+        left: 0;
+        transform: translate(-70%, -240%);
+    }
+    .cucumber {
+        left: 0;
+        transform: translate(460%, -100%);
+    }
+    .mushroom {
+        left: 0;
+        transform: translate(0, 70%);
+        z-index: 1;
+    }
+    .mushroom_icon {
+        left: 0;
+        transform: translate(20%, 80%);
+    }
+    .pepper-blured--left {
+        left: 0;
+        transform: translate(470%, -50%);
+    }
+    .pepper-blured--right {
+        right: 0;
+        transform: translate(-240%, 40%);
+    }
+    .pepper-tree {
+        left: 0;
+        transform: translate(400%, -200%);
+    }
+    .pepper-two {
+        right: 0;
+        transform: translate(-440%, 250%);
+    }
+    .pepper-one {
+        right: 0;
+        transform: translate(-600%, 280%);
+    }
+    .pepper-double {
+        left: 0;
+        transform: translate(400%, 150%);
+    }
+    .pizza_icon {
+        right: 0;
+        transform: translate(30%, 90%);
+    }
+    .prawn_icon {
+        right: 0;
+        transform: translate(100%, -380%);
+    }
+    .meat_icon {
+        left: 0;
+        transform: translate(0%, 0%);
+    }
+    .tongs_icon {
+        right: 0;
+        transform: translate(0%, 20%);
+    }
+    .broccoli_icon {
+        left: 0;
+        transform: translate(0%, 500%);
+    }
+}
