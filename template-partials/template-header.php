@@ -9,9 +9,10 @@
 
     <!-- css files-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/src/css/main.css">
-
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/src/css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/src/css/slick/slick-theme.css"/>
     <!-- js files -->
-    <script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/src/js/main.js"></script>
+    
     <?php wp_head(); ?>
 </head>
 

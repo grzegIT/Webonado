@@ -8,15 +8,15 @@
 
 <footer class="page-footer">
     <div class="main-container">
-    <h4><?php the_field('footer-copy', 23); ?></h4>
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">
-        <?php if($custom_logo ) : ?>
-        <img src="<?php echo esc_url( $custom_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) );?>" class="footer__logo" />
+    <h4><?php the_field('footer-copy', 50); ?></h4>
+    <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>" rel="home">
+        <?php if($custom_logo) : ?>
+        <img src="<?php echo esc_url($custom_logo); ?>" alt="Here should be page logo, but it probably doesn't exist." class="footer__logo" />
         <?php else: ?>
-        <p>Here should be the page logo.</p>
+        <p>Here should be page logo, but it probably doesn't exist.</p>
         <?php endif; ?>
     </a>
-    <h4><?php the_field('footer-info', 23); ?><span class="bold"><?php the_field('author', 23); ?></span></h4>
+    <h4><?php the_field('footer-info', 50); ?><span class="bold"><a href="mailto: xxx@xxx.xx" title="<?php the_field('author', 50); ?>'s e-email"> <?php the_field('author', 50); ?></a></span></h4>
     </div>
 
     
